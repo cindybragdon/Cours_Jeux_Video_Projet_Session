@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d7fc6ed120457e7449404808436cf234
+timeCreated: 1576535582
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159578
+  packageName: Female Ankle Boots - Photoscanned
+  packageVersion: 1.0
+  assetPath: Assets/ShoesScan1/Prefab/ShoesScan1low.prefab
+  uploadId: 346802
