@@ -32,9 +32,9 @@ public class Flickert : MonoBehaviour
     
     [Header("Stop Flickering After Time")]
     [Tooltip("Time in seconds after which the light stops flickering")]
-    public float stopAfterTime = 10.0f; // Time after which flickering will stop
+    public float stopAfterTime = 10.0f; 
     private float _flickerTimer;
-    private bool _isFlickering = true;  // To control if flickering is active or not
+    private bool _isFlickering = true;  
 
     // Start is called before the first frame update
     void Start()
@@ -95,12 +95,11 @@ public class Flickert : MonoBehaviour
         }
     }
 
-    // This method will stop the flickering and set the light to a fixed state
+    
     void StopFlickering()
     {
         _isFlickering = false;
-        lig.intensity = min;  // Set the light intensity to min or any fixed value you'd prefer
-        // Optionally, you could also turn off the light or change its color
-        // lig.enabled = false;  // This would completely turn off the light.
+        lig.intensity = min;  
+        
     }
 }
