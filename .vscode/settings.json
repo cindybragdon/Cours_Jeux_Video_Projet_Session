@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Unity_Old_House.sln"
+    "dotnet.defaultSolution": "Cours_Jeux_Video_Projet_Session.sln"
 }
