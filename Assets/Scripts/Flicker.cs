@@ -45,7 +45,7 @@ public class Flickert : MonoBehaviour
             _startPosLight = lig.transform.position;
         }
 
-        _flickerTimer = stopAfterTime; // Set the timer to the stop time
+        _flickerTimer = stopAfterTime; 
         StartCoroutine(SmoothFLick());
     }
 
@@ -95,7 +95,7 @@ public class Flickert : MonoBehaviour
         }
     }
 
-    
+    // Jenna
     void StopFlickering()
     {
         _isFlickering = false;
