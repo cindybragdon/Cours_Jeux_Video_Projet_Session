@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Threading;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -15,7 +16,7 @@ public class PickUpScript : MonoBehaviour
 
 
     public float throwForce = 500f;
-    public float pickUpRange = 3f;
+    public float pickUpRange = 7f;
     private float rotationSensitivity = 1f;
     private GameObject heldObj;
     private Rigidbody heldObjRb;
@@ -40,6 +41,7 @@ public class PickUpScript : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
         {
+            
             if (hit.transform.gameObject.CompareTag("Pickable") )
             {
                 if (heldObj == null)
