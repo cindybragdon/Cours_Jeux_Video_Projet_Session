@@ -7,6 +7,8 @@ TagManager:
   - SmallCreatureCheckpoint
   - Safe
   - Pickable
+  - DamageZone
+  - SafeZone
   layers:
   - Default
   - TransparentFX
