@@ -106,11 +106,11 @@ Material:
     - _Float0: 0.22
     - _Float1: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.13
+    - _Glossiness: 0.215
     - _GlossyReflections: 1
     - _InvFade: 2.63
     - _LightingEnabled: 1
-    - _Metallic: 0.2
+    - _Metallic: 0.19
     - _Mode: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -129,7 +129,7 @@ Material:
     m_Colors:
     - _AlbedoColor: {r: 0.62330896, g: 0.62725675, b: 0.6509434, a: 0.3137255}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.19215687}
+    - _Color: {r: 0.4339623, g: 0.43191528, b: 0.43191528, a: 0.19215687}
     - _Color0: {r: 0, g: 0, b: 0, a: 0.078431375}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 5.5555553, b: 0, a: 0}

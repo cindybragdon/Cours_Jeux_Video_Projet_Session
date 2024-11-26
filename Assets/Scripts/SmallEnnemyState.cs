@@ -145,7 +145,6 @@ public class Patrol : SmallEnnemyState {
 
          
         if (CanSeePlayer()) {
-            Debug.Log("JE regarde le joueur");
             nextState = new Stare(npc, agent, anim, player);
             stage = EVENT.EXIT;
         } else if (agent.remainingDistance < 1) {
