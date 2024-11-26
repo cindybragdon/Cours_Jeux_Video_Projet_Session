@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b94599c49cdf9d14180440b6cd484b40
+timeCreated: 1514318050
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142869
+  packageName: Cobweb pack
+  packageVersion: 1.0
+  assetPath: Assets/_Cobweb/__CubemapsShaders/ASE_StandartTransparentAdditive.shader
+  uploadId: 302161

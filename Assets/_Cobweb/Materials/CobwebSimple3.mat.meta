@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5791db5a0388b540a6105f01993fdaf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142869
+  packageName: Cobweb pack
+  packageVersion: 1.0
+  assetPath: Assets/_Cobweb/Materials/CobwebSimple3.mat
+  uploadId: 302161

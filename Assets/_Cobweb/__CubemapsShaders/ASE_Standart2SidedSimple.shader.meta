@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ccbdea634bcfa8b4c8c6a3522c1dd22d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142869
+  packageName: Cobweb pack
+  packageVersion: 1.0
+  assetPath: Assets/_Cobweb/__CubemapsShaders/ASE_Standart2SidedSimple.shader
+  uploadId: 302161
