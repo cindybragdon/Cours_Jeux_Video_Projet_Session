@@ -26,7 +26,6 @@ Jeu Projet de Session
 ![image](https://github.com/user-attachments/assets/d9376ae1-18fa-4f1f-a494-20e7d4fb3c7c)
 
 
-
 ---
 
 ## :label: Table des matières
