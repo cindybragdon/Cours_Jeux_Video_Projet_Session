@@ -2,6 +2,31 @@
 Jeu Projet de Session  
 **TEAM MIDNIGHT STUDIO** | Étudiants DEC 3ième année  
 
+![image](https://github.com/user-attachments/assets/57e20959-a622-41cc-a759-4c980038a3fe)
+
+
+
+![image](https://github.com/user-attachments/assets/a4a097bf-512a-44d1-9a61-320b9f01fb45)
+
+
+![image](https://github.com/user-attachments/assets/6e55471c-2757-4177-aa4f-c150c0a55f09)
+
+
+![image](https://github.com/user-attachments/assets/27d74ed7-9f2b-4686-917c-a369ac4665f4)
+
+
+![image](https://github.com/user-attachments/assets/56b922d0-b409-4eb0-98d3-05ac2c6c70ab)
+
+
+![image](https://github.com/user-attachments/assets/f0352b58-64d8-4103-94d1-f649255815aa)
+
+![image](https://github.com/user-attachments/assets/40216425-917a-4dfb-9fef-3950124d9938)
+
+
+![image](https://github.com/user-attachments/assets/d9376ae1-18fa-4f1f-a494-20e7d4fb3c7c)
+
+
+
 ---
 
 ## :label: Table des matières
@@ -32,6 +57,25 @@ Ce projet est réalisé dans le cadre du cours **Développement de jeu vidéo** 
 | **Olivier Poirier**       | Développeur, sound designer, game designer                         |
 | **Chadi El Chami**        | Développeur, artiste 2D, concepteur de niveaux                     |
 
+---
+
+<p align="center">
+  <a href="https://github.com/cindybragdon">
+    <img src="https://github.com/cindybragdon.png?size=64" width="64" height="64" alt="Cindy" style="border-radius: 50%; overflow: hidden;">
+  </a>
+  <a href="https://github.com/olivierpoirier">
+    <img src="https://github.com/olivierpoirier.png?size=64" width="64" height="64" alt="Olivier" style="border-radius: 50%; overflow: hidden;">
+  </a>
+  <a href="https://github.com/JennaLeeL">
+    <img src="https://github.com/JennaLeeL.png?size=64" width="64" height="64" alt="Jenna" style="border-radius: 50%; overflow: hidden;">
+  </a>
+  <a href="https://github.com/NotaroNissia">
+    <img src="https://github.com/NotaroNissia.png?size=64" width="64" height="64" alt="Nissia" style="border-radius: 50%; overflow: hidden;">
+  </a>
+  <a href="https://github.com/ChadiEC">
+    <img src="https://github.com/ChadiEC.png?size=64" width="64" height="64" alt="Chadi" style="border-radius: 50%; overflow: hidden;">
+  </a>
+</p>
 ---
 
 ## :video_game: Description générale du jeu
@@ -115,7 +159,9 @@ Tests réalisés avec **NUnit** et couverture analysée via **SonarQube** :
 
 ## :page_facing_up: Annexes
 
-- Liens vers les ressources : musiques, textures, assets 3D.
-- Schémas et captures d’écran des niveaux.  
+•	https://assetstore.unity.com/
+•	https://www.mixamo.com/#/
+•	https://uppbeat.io/browse/sfx/gaming
+
 
 "Initialement, le jeu s'appelait *7 Days of Darkness*. Aujourd'hui, c'est *15 Minutes of Mild Anxiety*. On s'adapte."
