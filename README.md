@@ -31,8 +31,8 @@ Jeu Projet de Session
 ## :label: Table des matières
 
 - [Contexte du travail](#contexte-du-travail)
-- [Équipe et rôles](#équipe-et-rôles)
-- [Description générale du jeu](#description-générale-du-jeu)
+- [Equipe et roles](#equipe-et-roles)
+- [Description generale du jeu](#description-generale-du-jeu)
 - [Conception technique](#conception-technique)
 - [Design des niveaux](#design-des-niveaux)
 - [Tests et validation](#tests-et-validation)
@@ -40,14 +40,14 @@ Jeu Projet de Session
 
 ---
 
-## :bookmark_tabs: Contexte du travail
-
+## Contexte du travail
+:bookmark_tabs:
 Ce projet est réalisé dans le cadre du cours **Développement de jeu vidéo** supervisé par **Sofiane Faïdi**. L'objectif est de concevoir, développer, et livrer un jeu vidéo complet en appliquant des concepts de programmation orientée objet et données.
 
 ---
 
-## :busts_in_silhouette: Équipe et rôles
-
+## Equipe et roles
+:busts_in_silhouette:
 | Nom                       | Rôles                                                                 |
 |---------------------------|----------------------------------------------------------------------|
 | **Cindy Bragdon**         | Scrum Master, développeur, testeuse, documentation technique         |
@@ -77,8 +77,8 @@ Ce projet est réalisé dans le cadre du cours **Développement de jeu vidéo** 
 </p>
 ---
 
-## :video_game: Description générale du jeu
-
+## Description generale du jeu
+:video_game:
 ### Contexte narratif
 Lewis, isolé dans une maison ancestrale après un événement mystérieux, doit survivre dans un environnement hostile où des créatures malveillantes l’assaillent.
 
@@ -97,8 +97,8 @@ Horreur - Escape Room à la première personne mêlant :
 
 ---
 
-## :toolbox: Conception technique
-
+## Conception technique
+:toolbox:
 ### Outils et technologies utilisées
 <table>
   <tr>
@@ -129,8 +129,8 @@ Horreur - Escape Room à la première personne mêlant :
 
 ---
 
-## :world_map: Design des niveaux
-
+## Design des niveaux
+:world_map:
 ### Cartographie des niveaux
 - **Niveau 1** : Exploration et résolution d’énigmes dans le grenier.  
 - **Niveau 2** : Une chambre principale mystérieuse et plus difficile.  
@@ -140,8 +140,8 @@ Le joueur fait face à une difficulté croissante, introduisant de nouvelles mé
 
 ---
 
-## :white_check_mark: Tests et validation
-
+## Tests et validation
+:white_check_mark:
 ### Stratégie de test
 Tests réalisés avec **NUnit** et couverture analysée via **SonarQube** :  
 1. Tests manuels par les membres de l’équipe.  
@@ -156,8 +156,8 @@ Tests réalisés avec **NUnit** et couverture analysée via **SonarQube** :
 
 ---
 
-## :page_facing_up: Annexes
-
+## Annexes
+:page_facing_up:
 •	https://assetstore.unity.com/
 •	https://www.mixamo.com/#/
 •	https://uppbeat.io/browse/sfx/gaming
