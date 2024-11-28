@@ -1,16 +1,20 @@
+using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class changeLevel : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public bool isLevelChanging = false;
+
+    private float elapsedTime = 0f;
+
+    public float timeToWait = 5f;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(isLevelChanging) {
+
+        }
     }
 }
