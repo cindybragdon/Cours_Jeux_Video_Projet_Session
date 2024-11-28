@@ -145,6 +145,7 @@ public class Patrol : SmallEnnemyState {
 
          
         if (CanSeePlayer()) {
+            Debug.Log("JE regarde le joueur");
             nextState = new Stare(npc, agent, anim, player);
             stage = EVENT.EXIT;
         } else if (agent.remainingDistance < 1) {
@@ -181,16 +182,16 @@ public class RunAway : SmallEnnemyState {
         base.Enter();
     }
  
-    public override void Update() {
-        if (agent.remainingDistance < 1.0f) {
-            if(!fleePlayer()){
-                nextState = new Idle(npc, agent, anim, player);
-                stage = EVENT.EXIT;
-            } else {
-                agent.SetDestination(safeLocations[Random.Range(0,safeLocations.Length)].transform.position);
-            }
-        }
-    }
+    // public override void Update() {
+    //     if (agent.remainingDistance < 1.0f) {
+    //         if(!fleePlayer()){
+    //             nextState = new Idle(npc, agent, anim, player);
+    //             stage = EVENT.EXIT;
+    //         } else {
+    //             agent.SetDestination(safeLocations[Random.Range(0,safeLocations.Length)].transform.position);
+    //         }
+    //     }
+    // }
  
     public override void Exit() {
         anim.ResetTrigger("isWalking");

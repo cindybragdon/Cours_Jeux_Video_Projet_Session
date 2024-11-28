@@ -36,13 +36,9 @@ public class Flickert : MonoBehaviour
     private float _flickerTimer;
     private bool _isFlickering = true;  
 
-    AudioSource audioSource ;
-
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-
         if (lig == null)
         {
             lig = GetComponent<Light>();
@@ -104,8 +100,6 @@ public class Flickert : MonoBehaviour
     {
         _isFlickering = false;
         lig.intensity = min;  
-        audioSource.mute = true;
-
         
     }
 }
