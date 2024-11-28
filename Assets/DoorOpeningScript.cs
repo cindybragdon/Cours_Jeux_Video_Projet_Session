@@ -29,6 +29,7 @@ public class DoorOpeningScript : MonoBehaviour
        triggerOpening = GameObject.FindWithTag("FacePadLock");
        triggerOpening.gameObject.SetActive(false);
        text.gameObject.SetActive(false);   
+       toDO.gameObject.SetActive(false);
        oPosition =   triggerOpening.transform.position;
     }
 

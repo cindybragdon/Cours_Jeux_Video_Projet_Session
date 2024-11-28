@@ -4,62 +4,58 @@ using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class PlayerHealth : MonoBehaviour
 {
-    public float playerHealth;
-    public UnityEngine.UI.Image healthImpact;
-
-
-    // Start is called before the first frame update
+    public float playerHealth = 100f;  
+    public UnityEngine.UI.Image healthImpact;  
     void Start()
     {
-        playerHealth = 100;
-        
+        playerHealth = 100f;
     }
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.name == "DamageZone") 
+        if (other.gameObject.name == "DamageZone")
         {
             PlayerTakingDamage(10f);
         }
 
-        if (other.gameObject.name == "SafeZone") 
+        if (other.gameObject.name == "SafeZone")
         {
             PlayerNotTakingDamage(10f);
         }
     }
 
-    void HealthDamageImpact() 
+    void HealthDamageImpact()
     {
-        float transparency = 1f - (playerHealth/100f);
+        float transparency = 1f - (playerHealth / 100f);  
         Color imageColor = Color.white;
-        imageColor.a = transparency;
-        healthImpact.color = imageColor;
+        imageColor.a = transparency;  
+        healthImpact.color = imageColor; 
     }
 
-    void PlayerTakingDamage(float damage)
+    public void PlayerTakingDamage(float damage)
     {
-        if(playerHealth > 0)
+        if (playerHealth > 0)
         {
-            playerHealth -= damage;
-            Debug.Log("Player is taking damage");
+            playerHealth -= damage;  
+            playerHealth = Mathf.Clamp(playerHealth, 0f, 100f);  
+            Debug.Log("Player is taking damage, current health: " + playerHealth);
         }
     }
 
-    void PlayerNotTakingDamage(float health)
+    public void PlayerNotTakingDamage(float health)
     {
-        if(playerHealth < 100)
+        if (playerHealth < 100)
         {
-            playerHealth -= health;
-            Debug.Log("Player is not taking damage");
+            playerHealth += health; 
+            playerHealth = Mathf.Clamp(playerHealth, 0f, 100f);  
+            Debug.Log("Player is not taking damage, current health: " + playerHealth);
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        HealthDamageImpact(); 
+        HealthDamageImpact();  
     }
 }

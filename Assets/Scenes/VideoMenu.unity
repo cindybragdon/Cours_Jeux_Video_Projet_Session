@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf037bae236017438ca254dbb47d833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playScene: Attic
+  playScene: Attic_v.1.2.0
   fader: {fileID: 1598228355}
 --- !u!4 &191448376
 Transform:

@@ -9,10 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/VideoMenu.unity
     guid: 903de5a5e1d01fb42bba9fde37e5ecc0
   - enabled: 1
-    path: Assets/Scenes/Attic.unity
-    guid: 9e973b3a3f0d148fcbc03bdbf2c144e5
+    path: Assets/Scenes/Attic_v.1.2.0.unity
+    guid: 9828ace3afe113341a7249d6f5393ecd
   - enabled: 1
     path: Assets/Scenes/Attic 1.unity
     guid: e5c20c6128d824321a787a64f4db88e4
+  - enabled: 1
+    path: Assets/Scenes/Attic.unity
+    guid: 9e973b3a3f0d148fcbc03bdbf2c144e5
+  - enabled: 1
+    path: Assets/Scenes/CanvasGameOver.unity
+    guid: eb2728f5094e64b4985ff5ccf36e46ce
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
