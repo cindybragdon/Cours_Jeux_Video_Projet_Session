@@ -46,7 +46,7 @@ public class Flickert : MonoBehaviour
             lig = GetComponent<Light>();
             _startPosLight = lig.transform.position;
         }
-
+        audioSource = GetComponent<AudioSource>(); 
         _flickerTimer = stopAfterTime; 
         StartCoroutine(SmoothFLick());
     }

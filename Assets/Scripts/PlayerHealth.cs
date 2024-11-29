@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         playerHealth = 100f;
+        Debug.Log(playerHealth);
     }
 
     void OnCollisionEnter(Collision other)

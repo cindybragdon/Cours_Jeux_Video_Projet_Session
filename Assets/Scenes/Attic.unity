@@ -3354,6 +3354,10 @@ PrefabInstance:
       value: DamageZone
       objectReference: {fileID: 0}
     - target: {fileID: 458696628301100022, guid: d180592564ecaba40ade15fc92283726, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458696628301100022, guid: d180592564ecaba40ade15fc92283726, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -4438,10 +4442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ca91e57f79b469cbacc688815aeb3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topColor: {r: 1, g: 1, b: 1, a: 1}
-  bottomColor: {r: 0.4745098, g: 0.4745098, b: 0.4745098, a: 1}
-  borderColor: {r: 0, g: 0, b: 0, a: 1}
-  borderSize: 0
 --- !u!4 &658886646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7976981279839586096, guid: 57edf361d5da645c0b666c6b57e1796a, type: 3}
@@ -17223,6 +17223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightSource: {fileID: 2010334446}
+  audioSource: {fileID: 0}
 --- !u!1001 &2011912925
 PrefabInstance:
   m_ObjectHideFlags: 0
