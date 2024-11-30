@@ -3,10 +3,11 @@ Jeu Projet de Session
 **TEAM MIDNIGHT STUDIO** | Étudiants DEC 3ième année  
 
 ![image](https://github.com/user-attachments/assets/57e20959-a622-41cc-a759-4c980038a3fe)
+---
+## Voir la vidéo sur Youtube!
 
-[[![Vidéo YouTube](![image](https://github.com/user-attachments/assets/905d0c4e-8a07-439b-b70c-f4019eb57cc3)
-)]([https://www.youtube.com/watch?v=ID_DE_LA_VIDEO](https://youtu.be/xcGxfcOstg8))](https://youtu.be/xcGxfcOstg8)
-
+[![Vidéo YouTube](https://img.youtube.com/vi/xcGxfcOstg8/0.jpg)](https://youtu.be/xcGxfcOstg8)
+---
 
 ![image](https://github.com/user-attachments/assets/a4a097bf-512a-44d1-9a61-320b9f01fb45)
 
