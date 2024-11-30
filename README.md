@@ -15,15 +15,19 @@ Jeu Projet de Session
 ![image](https://github.com/user-attachments/assets/6e55471c-2757-4177-aa4f-c150c0a55f09)
 
 
-![image](https://github.com/user-attachments/assets/27d74ed7-9f2b-4686-917c-a369ac4665f4)
+![image](https://github.com/user-attachments/assets/9447accb-a244-47ee-aebd-0d0e43d2ca74)
+
+![image](https://github.com/user-attachments/assets/6a23e455-2908-4884-83db-7c17049960e8)
 
 
-![image](https://github.com/user-attachments/assets/56b922d0-b409-4eb0-98d3-05ac2c6c70ab)
+![image](https://github.com/user-attachments/assets/552cd511-565e-4abd-8cf8-f442e9664467)
 
 
 ![image](https://github.com/user-attachments/assets/f0352b58-64d8-4103-94d1-f649255815aa)
 
 ![image](https://github.com/user-attachments/assets/40216425-917a-4dfb-9fef-3950124d9938)
+
+![image](https://github.com/user-attachments/assets/ddc0e28a-c7b9-4a85-8a7e-8ca389a5dbea)
 
 
 ![image](https://github.com/user-attachments/assets/d9376ae1-18fa-4f1f-a494-20e7d4fb3c7c)
