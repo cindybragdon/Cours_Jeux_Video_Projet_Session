@@ -4,8 +4,8 @@ Jeu Projet de Session
 
 ![image](https://github.com/user-attachments/assets/57e20959-a622-41cc-a759-4c980038a3fe)
 ---
-## Voir la vidéo sur Youtube!
-
+## Voir la vidéo sur Youtube! 
+:movie_camera:  :arrow_down: <br>
 [![Vidéo YouTube](https://img.youtube.com/vi/xcGxfcOstg8/0.jpg)](https://youtu.be/xcGxfcOstg8)
 ---
 
