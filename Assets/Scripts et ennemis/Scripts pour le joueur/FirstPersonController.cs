@@ -1,3 +1,6 @@
+// Ce script permet de contrôler un joueur en vue à la première personne dans Unity. Il gère le déplacement du joueur
+// en fonction des entrées de l'utilisateur et permet au joueur de sauter s'il est au sol.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,7 @@
+// Ce script gère la santé d'un joueur dans un jeu Unity. Il ajuste la santé du joueur en fonction des collisions avec des zones spécifiques,
+// telles que la "DamageZone" (réduit la santé) et la "SafeZone" (augmente la santé). La transparence de l'image de la santé est mise à jour 
+// pour refléter la quantité de vie restante du joueur.
+
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
@@ -8,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public float playerHealth = 100f;  
     public UnityEngine.UI.Image healthImpact;  
+
     void Start()
     {
         playerHealth = 100f;

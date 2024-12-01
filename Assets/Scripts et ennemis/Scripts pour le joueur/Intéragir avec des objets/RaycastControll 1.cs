@@ -1,3 +1,7 @@
+// Ce script permet à un joueur de ramasser et déposer des objets dans un jeu en utilisant un rayon de détection. 
+// Lorsqu'un objet "Pickable" est dans le champ de vision, son nom est affiché, et une invite pour le ramasser ("Press E to pickup") apparaît.
+// L'objet peut être ramassé avec la touche "E" et équipé à un parent d'arme, ou déposé avec la touche "Q".
+
 using System;
 using System.Collections;
 using System.Collections.Generic;

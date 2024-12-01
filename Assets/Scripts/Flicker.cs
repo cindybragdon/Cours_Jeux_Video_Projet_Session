@@ -1,3 +1,5 @@
+// Ce script simule un effet de scintillement de lumière avec la possibilité de déplacer l'ombre de la lumière. Il contrôle l'intensité et la couleur de la lumière, ainsi que la vitesse du scintillement. Il inclut un délai pour arrêter le scintillement après un certain temps et permet de simuler des mouvements aléatoires de l'ombre. Si la lumière cesse de scintiller, l'intensité de la lumière est réduite à son minimum et le son associé est coupé.
+
 using System.Collections;
 using UnityEngine;
 

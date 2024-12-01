@@ -1,11 +1,13 @@
+// Ce script gère un objet "PickableItem" qui peut être activé ou désactivé. Lorsqu'il est désactivé, un canevas avec un indice visuel est activé. Le script gère aussi l'affichage et l'interaction du canevas.
+
 using UnityEngine;
 
 public class PickableItem : MonoBehaviour
 {
-    public Canvas canvasHint; // The canvas to show
-    private CanvasGroup canvasGroup; // The CanvasGroup to control transparency and interaction
-    public float fadeDuration = 2f; // Fade duration for the canvas
-    public float timeBeforeFade = 1f; // Time before canvas starts fading
+    public Canvas canvasHint; // Le canevas à afficher
+    private CanvasGroup canvasGroup; // Le CanvasGroup pour contrôler la transparence et l'interaction
+    public float fadeDuration = 2f; // Durée de disparition du canevas
+    public float timeBeforeFade = 1f; // Temps avant que le canevas commence à disparaître
     private float timePassed = 0f;
 
 

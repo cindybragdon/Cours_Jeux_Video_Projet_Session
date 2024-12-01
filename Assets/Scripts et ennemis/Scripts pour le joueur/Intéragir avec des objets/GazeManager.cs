@@ -1,12 +1,11 @@
+// Ce script gère l'interaction de la caméra du joueur avec les objets en fonction de la direction du regard. 
+// Il détecte quel objet est regardé par le joueur et envoie des messages aux objets pour déclencher des comportements spécifiques.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GazeManager : MonoBehaviour
 {
-    //https://www.immersivelimit.com/detect-when-looking-at-object
-
-
     //La caméra du joueur
     public Camera viewCamera;
 
@@ -27,7 +26,6 @@ public class GazeManager : MonoBehaviour
             lastGazedUpon.SendMessage("NotGazingUpon", SendMessageOptions.DontRequireReceiver);
         }
 
-
         //Crée un rayon devant la caméra du joueur pour détecter des objets
         Ray gazeRay = new Ray(viewCamera.transform.position, viewCamera.transform.rotation * Vector3.forward);
         RaycastHit hit;
@@ -40,5 +38,4 @@ public class GazeManager : MonoBehaviour
             lastGazedUpon = hit.transform.gameObject;
         }
     }
-    
 }

@@ -1,3 +1,5 @@
+// Ce script permet de faire apparaître et disparaître un Canvas en modifiant son opacité. 
+// Il attend un certain délai avant de commencer l'animation de fondu et gère les transitions entre l'état visible et invisible.
 using UnityEngine;
 
 public class CanvasFader : MonoBehaviour

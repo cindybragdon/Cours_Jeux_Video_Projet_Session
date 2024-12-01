@@ -1,3 +1,6 @@
+// Ce script gère la caméra à la troisième personne, permettant de suivre un "target" (cible) avec une rotation de la caméra contrôlée par la souris, ainsi qu'un ajustement dynamique de la distance de la caméra pour éviter les collisions et les obstructions. 
+// Il offre également une option pour verrouiller le curseur et ajuster la sensibilité de la souris. 
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,8 +8,6 @@ using UnityEngine;
 
 public class ThirdViewCamera : MonoBehaviour
 {
-
-    // https://www.youtube.com/watch?v=vpn8CbPpvlU
     public bool lockCursor;
     public float mouseSensitivity = 10;
     public Transform target;
@@ -16,17 +17,14 @@ public class ThirdViewCamera : MonoBehaviour
     Vector3 rotationSmoothVelocity;
     Vector3 currentRotation;
 
-
     float yaw;
     float pitch;
-
-    
 
     Vector3 cameraDirection;
     float camDistance;
     Vector2 cameraDistanceMinMax = new Vector2(1f, 3f);
     public Transform cam;
-    // Start is called before the first frame update
+
     void Start()
     {   
         cameraDirection = cam.transform.localPosition.normalized;
@@ -38,7 +36,6 @@ public class ThirdViewCamera : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
         yaw += Input.GetAxis("Mouse X") * mouseSensitivity;
@@ -65,4 +62,3 @@ public class ThirdViewCamera : MonoBehaviour
         cam.localPosition = cameraDirection * camDistance;
     }
 }
-

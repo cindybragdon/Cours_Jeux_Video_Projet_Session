@@ -1,3 +1,7 @@
+// Ce script gère l'apparition d'un ennemi à la fin du jeu, ainsi que les attaques de cet ennemi contre le joueur. 
+// Il attend un certain temps (défini par 'numberSecondsToEndGame') avant de faire apparaître l'ennemi. Une fois l'ennemi apparu, 
+// il se déplace vers le joueur et l'attaque si celui-ci est à portée. Si le joueur subit suffisamment de dégâts, la scène de fin de jeu est chargée.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;

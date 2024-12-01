@@ -1,3 +1,4 @@
+// Ce script gère un inventaire d'objets dans un jeu. Il permet d'ajouter, de retirer, d'utiliser des objets et de vérifier leur existence ou leur quantité dans l'inventaire. L'inventaire est limité à un nombre maximum de slots, et chaque objet est suivi de sa quantité.
 
 using UnityEngine;
 using System.Collections.Generic;
@@ -98,6 +99,4 @@ public class GameObjectInventory : MonoBehaviour
         }
         return 0;
     }
-    
-
 }

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// Ce script contrôle les mouvements de Claire dans un jeu Unity. Il gère la marche, la course, les déplacements arrière, la rotation et les animations associées. Il inclut aussi la gestion du saut et une fonction pour la mort de Claire. Le comportement de la marche et de la course est basé sur l'input de l'utilisateur, avec un contrôle spécifique pour l'animation et les déplacements. Le saut et la mort de Claire sont également pris en charge par des méthodes dédiées.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,8 +19,6 @@ public class ClaireController : MonoBehaviour {
 
     const float timeout = 60.0f;
     [SerializeField] float countdown = timeout;
-
-   
 
     bool switchFoot = false;
 
@@ -64,7 +64,6 @@ public class ClaireController : MonoBehaviour {
         {
             claireAnimator.SetFloat("h", 0);
         }
-
 
         transform.Rotate(Vector3.up * rotSpeed * Time.deltaTime * axisH);
 

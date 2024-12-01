@@ -1,3 +1,5 @@
+// Ce script gère l'inventaire d'un joueur en permettant l'ajout, la suppression et la vérification d'objets. Il affiche également le contenu de l'inventaire.
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;

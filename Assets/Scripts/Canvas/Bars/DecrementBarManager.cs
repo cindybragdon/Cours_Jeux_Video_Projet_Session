@@ -1,3 +1,6 @@
+// Ce script gère la réduction d'une barre de progression (Slider) en fonction du temps écoulé lorsque l'utilisateur appuie sur certaines touches (flèches directionnelles ou W/S). 
+// La barre se décrémente à intervalles réguliers et affiche la valeur actuelle dans un texte.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,14 +1,15 @@
+// Ce script permet de contrôler la caméra à la première personne en fonction du mouvement de la souris. 
+// Il ajuste l'angle de la caméra en hauteur et la rotation du joueur horizontalement.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 
 public class FirstPersonCameraBehavior : MonoBehaviour
 {
     public Transform player;
     public float mouseSensibility = 2f;
     public float cameraVerticalRotation = 0f;
-    // Start is called before the first frame update
 
     void Start()
     {
@@ -16,7 +17,6 @@ public class FirstPersonCameraBehavior : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
     void Update()
     {
         float inputX = Input.GetAxis("Mouse X")*mouseSensibility;
@@ -27,6 +27,5 @@ public class FirstPersonCameraBehavior : MonoBehaviour
         transform.localEulerAngles = Vector3.right * cameraVerticalRotation;
 
         player.Rotate(Vector3.up * inputX);
-
     }
 }

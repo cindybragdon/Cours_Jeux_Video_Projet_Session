@@ -1,3 +1,5 @@
+// Ce script définit une classe "Item" qui représente un objet avec un nom et une quantité.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

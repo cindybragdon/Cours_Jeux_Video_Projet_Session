@@ -1,3 +1,5 @@
+// Ce script gère les effets visuels des boutons, comme le changement de couleur lors de l'interaction avec l'utilisateur.
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -10,7 +12,6 @@ public class Effects : MonoBehaviour
 {
     public void ChangeBtnColor(Button button)
     {
-
         ColorBlock cb = button.colors;
         cb.normalColor = Color.white;
         cb.highlightedColor = Color.red;
@@ -20,12 +21,10 @@ public class Effects : MonoBehaviour
 
     public void ResetBtnColor(Button button)
     {
-
         ColorBlock cb = button.colors;
         cb.normalColor = Color.white;
         cb.highlightedColor = Color.gray;
         cb.pressedColor = Color.gray;
         button.colors = cb;
     }
-
 }

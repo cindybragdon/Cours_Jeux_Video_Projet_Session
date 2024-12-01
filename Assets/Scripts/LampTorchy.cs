@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Ce script permet de contrôler l'activation d'une source lumineuse et de jouer un son lorsque la touche "L" est pressée.
 public class LightToggleController : MonoBehaviour
 {
     public Light lightSource;

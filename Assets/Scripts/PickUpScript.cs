@@ -1,3 +1,7 @@
+// Ce script permet au joueur d'interagir avec des objets dans un jeu en 3D. Le joueur peut ramasser, jeter, déposer et stocker des objets dans un inventaire. 
+// Il gère également l'affichage des informations liées aux objets (nom, commandes possibles) et l'interaction via des touches spécifiques (E pour ramasser, Q pour déposer, F pour stocker, clic gauche pour lancer).
+// Les objets peuvent être déplacés et manipulés en fonction de leur position et de leur état, et le joueur peut aussi interagir avec plusieurs objets via un système d'inventaire.
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -243,8 +247,4 @@ public class PickUpScript : MonoBehaviour
             }
         }
     }
-    
-    
-
-
 }

@@ -1,3 +1,8 @@
+// Ce script gère le menu principal d'un jeu. Il permet de lancer une scène de jeu ou de quitter l'application.
+// Lors du démarrage, il déverrouille le curseur et le rend visible.
+// La méthode Play gère une animation de fondu avant de charger la scène de jeu.
+// La méthode Exit permet de quitter le jeu, que ce soit en mode autonome ou en mode éditeur.
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -9,16 +14,12 @@ public class MenuManager : MonoBehaviour
     public string playScene; 
     [SerializeField] RectTransform fader;
 
-
-    //https://stackoverflow.com/questions/39900445/unity3d-c-sharp-cursor-keeps-being-pulled-back-to-the-center-of-the-screen
     private void Start()
     {
-
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        
     }
-    //https://www.youtube.com/watch?v=JNjLCAheWSc
+
     public void Play()
     {
         fader.gameObject.SetActive(true);
@@ -27,12 +28,8 @@ public class MenuManager : MonoBehaviour
         {
             SceneManager.LoadScene(playScene);
         });
-
-        
-        
     }
 
-    //https://stackoverflow.com/questions/70437401/cannot-finish-the-game-in-unity-using-application-quit
     public void Exit()
     {
 #if UNITY_STANDALONE
@@ -41,6 +38,5 @@ public class MenuManager : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
-          }
     }
-
+}
