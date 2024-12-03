@@ -22,12 +22,9 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
-        fader.gameObject.SetActive(true);
-        LeanTween.scale(fader, new Vector3(1, 1, 1), 0.5f);
-        LeanTween.scale(fader, Vector3.zero, 0.5f).setOnComplete(() =>
-        {
+  
             SceneManager.LoadScene(playScene);
-        });
+      
     }
 
     public void Exit()
